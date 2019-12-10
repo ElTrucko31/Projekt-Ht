@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+header {
+  text-align: left;
+  font-size: 60px;
+  background-color: #403F3F;
+  padding: 10px;
+  color: white;
+}
+
+nav {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+section {
+  border: 2px solid black;
+  padding: 20px;
+  color: black;
+}
+
+#section-2 {
+  border: 2px solid black;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+#nav-2 {
+  text-align: center;
+  color: white;
+}
+
+#menu_nav :hover{
+  text-decoration: none;
+}
+
+#upp {
+  border: 2px solid black;
+}
