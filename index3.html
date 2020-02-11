@@ -1,30 +1,64 @@
 <!DOCTYPE html>
+<html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/quiz.css">
   <title>Mc uppkörning</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="container-3">
-    <header>El Trucko</header>
-    <nav id="nav-3">
-      │
-      <a href="index.html" style="color: white">Startsida</a>
-      │
-      <a href="index2.html" style="color:white">Mc uppkörning</a>
-      │
-      <a href="index3.html" style="color:white">Produkttips</a>
-      │
-      <a href="#footer" style="color:white">Kontakt</a>
-      │
-    </nav>
+    <header>
+      <h>El Trucko</h>
+      <img id="logo" src="img/logo.jpeg" width="100" height="60" alt="">
+      <nav class="navButtons">
+        │
+        <a href="index.html" style="color: white">Startsida</a>
+        │
+        <a href="index2.html" style="color:white">Mc uppkörning</a>
+        │
+        <a href="index3.html" style="color:white">Trafik quiz</a>
+        │
+        <a href="#footer-3" style="color:white">Kontakt</a>
+        │
+      </nav>
+    </header>
+  </div>
+
+  <div class="quiz-container">
+    <div class="title">Trafik quiz</div>
+    <div id="question" class="question"></div>
+    <label class="option">
+      <input type="radio" name="option" value="1" />
+      <span class="option1"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="2" />
+      <span class="option2"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="3" />
+      <span class="option3"></span>
+    </label>
+    <!-- Buttons -->
+    <div class="controls">
+      <button class="next">Nästa</button>
     </div>
-    </body>
+  </div>
+  <div class="result">
+  </div>
+  <footer id="footer-3">
+    <h3>Kontakt</h3>
+    <p> Eltrucko.mc@hotmail.com <br>
+      Tel: 123 456 78 </p>
+  </footer>
+  <script src="js/questions.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
 
-
-    </html>
+</html>
